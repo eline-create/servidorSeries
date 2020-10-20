@@ -17,21 +17,22 @@ Este repositório será um servidor de Series, como o nome já diz.
 1. Será montada uma API em JSON sobre séries, nela conterá a seguinte estrutura:
 
 ```json
-{ id,
- name,
- genre,
- synopsis,
- liked,
- seasons [
+
+{ "id": 1,
+ "name": "Series Name",
+ "genre": "Series genre",
+ "synopsis": "Short history about the serie",
+ "liked": "If you liked the serie",
+ "seasons": "How many seasons the serie has?" [
     { 
-      id,
-      code,
-      episodes [
+      "id": 1,
+      "code": "number of season",
+      "episodes": "How many episodes in this season" [
         { 
-           id,
-           code,
-           name,
-           wacthed
+           "id": "episode id",
+           "code": "Number of de episode",
+           "name": "episode name",
+           "wacthed": "status about the episode"
         }
         ]
     }
