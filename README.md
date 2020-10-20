@@ -18,25 +18,28 @@ Este repositório será um servidor de Series, como o nome já diz.
 
 ```json
 
-{ "id": 1,
+[
+    { 
+ "id": 1,
  "name": "Series Name",
  "genre": "Series genre",
  "synopsis": "Short history about the serie",
  "liked": "If you liked the serie",
- "seasons": "How many seasons the serie has?" [
-    { 
-      "id": 1,
-      "code": "number of season",
-      "episodes": "How many episodes in this season" [
-        { 
+ "seasons": "How many seasons the serie has?" 
+    [{
+       "id": 1,
+       "code": "number of season",
+       "episodes": "How many episodes in this season"     
+       [
+           {
            "id": "episode id",
            "code": "Number of de episode",
            "name": "episode name",
            "wacthed": "status about the episode"
-        }
-        ]
+           }
+       ]
     }
-]}
+]
 ```
 
 ---

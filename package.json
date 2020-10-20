@@ -1,0 +1,31 @@
+{
+  "name": "servidorseries",
+  "version": "1.0.0",
+  "description": "Servidor about series",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eline-create/servidorSeries.git"
+  },
+  "keywords": [
+    "server",
+    "app",
+    "js",
+    "json."
+  ],
+  "author": "Eline Pimentel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eline-create/servidorSeries/issues"
+  },
+  "homepage": "https://github.com/eline-create/servidorSeries#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.6"
+  }
+}

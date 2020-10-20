@@ -1,10 +1,10 @@
-const express =  require("espress");
+const express =  require("express");
 const app = express();
 
 app.use(express.json());
 
 const index = require("./routes/index");
-const series = require("./routes/seriesRoute")
+//const series = require("./routes/seriesRoute")
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*")
@@ -16,6 +16,6 @@ app.use(function (req, res, next) {
 })
 
 app.use("/", index)
-app.use("/series", series)
+//app.use("/series", series)
 
 module.exports = app
