@@ -1,4 +1,4 @@
-# servidorSeries
+# Servidor Séries
 
 
 Este repositório foi criado para incluir um projeto prático realizado referente a atividade individual da Semana 11/18 do curso de Desenvolvedor Web Back-End realizado pela [Reprograma](https://reprograma.com.br/) em parceria com o [Porto Digital/Mi.I.N.As](https://portodigital.org/119/38006).
