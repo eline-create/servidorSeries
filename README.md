@@ -15,6 +15,8 @@ Bem, o repositório referente a esta semana de aula está no [GitHub](https://gi
 Este repositório será um servidor de Series, como o nome já diz.
 
 1. Será montada uma API em JSON sobre séries, nela conterá a seguinte estrutura:
+
+```json
 { id,
  name,
  genre,
@@ -34,6 +36,7 @@ Este repositório será um servidor de Series, como o nome já diz.
         ]
     }
 ]}
+```
 
 ---
 
@@ -65,5 +68,6 @@ Nossa API de séries contém várias temporadas e essas contém vários episódi
 ---
 
 
-Para saber mais sobre escrever markdown visite o [site Pipz Academy](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
+Para saber mais sobre escrever markdown visite o [site Pipz Academy](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open).
+
 PALAVRAS-CHAVES: Javascript, Node.js, API, JSON, Reprograma, Porto Digital/MINAS.
