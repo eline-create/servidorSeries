@@ -1,0 +1,323 @@
+[
+    {
+        "id": 1,
+        "nameSerie": "Emily in Paris",
+        "genre": ["Comédia Dramática"],
+        "synopsis": "Emily, uma mulher americana do Centro-Oeste, que se muda para Paris para uma oportunidade de emprego e que experimenta um choque cultural.",
+        "liked": true,
+        "seasons": "1 season",
+        "idSeasson": 1,
+        "codeSeason": "season01",
+        "episodes": 10    
+       [
+           {
+           "id": 1,
+           "code": "EP01",
+           "name": "Emily in Paris",
+           "wacthed": false
+            },
+            {
+           "id": 2,
+           "code": "EP02",
+           "name": "Masculin Féminin",
+           "wacthed": false
+            },
+            {
+           "id": 3,
+           "code": "EP03",
+           "name": "Sexy or Sexist",
+           "wacthed": false
+            },
+            {
+           "id": 4,
+           "code": "EP04",
+           "name": "A Kiss a Kiss Is Just A Kiss",
+           "wacthed": false
+            },
+            {
+           "id": 5,
+           "code": "EP05",
+           "name": "Faux Amis",
+           "wacthed": false
+            },
+            {
+           "id": 6,
+           "code": "EP06",
+           "name": "Ringarde",
+           "wacthed": false
+            },
+            {
+           "id": 7,
+           "code": "EP07",
+           "name": "French Ending",
+           "wacthed": false
+            },
+            {
+           "id": 8,
+           "code": "EP08",
+           "name": "Family Affair",
+           "wacthed": false
+            },
+            {
+           "id": 9,
+           "code": "EP09",
+           "name": "An American Auction in Paris",
+           "wacthed": false
+            },
+            {
+           "id": 10,
+           "code": "EP10",
+           "name": "Cancel Culture",
+           "wacthed": false
+            }
+        ],
+
+ "id": 2,
+ "nameSerie": "Oscuro Deseo",
+ "genre": ["Drama","Suspense"],
+ "synopsis": "A advogada e professora universitária Alma Solares (Maite Perroni) é casada com o respeitado juiz Leonardo Solares (Jorge Poza) com quem tem uma filha, Zoe Solares (Regina Pavón). Certa de que está sendo traída pelo marido, ela decide passar um fim de semana na casa de sua melhor amiga, Brenda (María Fernanda Yapes). Nesse passeio, Alma conhece o novo Darío (Alejandro Speitzer), com quem vive uma intensa paixão. Entretanto, um crime acaba transformando sua vida e movimentando sua família, fazendo-a questionar a verdade sobre as pessoas próximas. Com a ajuda do cunhado, Esteban (Erik Hayser), ela começa uma investigação com desdobramentos inesperados.",
+ "liked": true,
+ "seasons": "1 season",
+       "idSeason": 1,
+       "codeSeason": "season01",
+       "episodes": 18    
+       [
+           {
+           "id": 1,
+           "code": "EP01",
+           "name": "Es solo sexo",
+           "wacthed": true
+            },
+            {
+           "id": 2,
+           "code": "EP02",
+           "name": "Una última noche de pasión",
+           "wacthed": true
+            },
+            {
+           "id": 3,
+           "code": "EP03",
+           "name": "Eso que los normales llaman amor",
+           "wacthed": true
+            },	    
+            {
+           "id": 4,
+           "code": "EP04",
+           "name": "Pero el amor, esa palabra",
+           "wacthed": true
+            },	
+            {
+           "id": 5,
+           "code": "EP05",
+           "name": "¿Qué sabes acerca de Darío Guerra?",
+           "wacthed": true
+            },	
+            {
+           "id": 6,
+           "code": "EP06",
+           "name": "¿Extrañado los viejos tiempos?",
+           "wacthed": true
+            },	
+            {
+           "id": 7,
+           "code": "EP07",
+           "name": "Te metiste con la mujer equivocada",
+           "wacthed": true
+            },	
+            {
+           "id": 8,
+           "code": "EP08",
+           "name": "El corazón delator",
+           "wacthed": true
+            },	
+            {
+           "id": 9,
+           "code": "EP09",
+           "name": "Un perverso juego de espejos",
+           "wacthed": true
+            },	
+            {
+           "id": 10,
+           "code": "EP10",
+           "name": "Esa instantánea muerte es bella...",
+           "wacthed": true
+            }],	
+            
+	"id": 3,
+ 	"nameSerie": "Sex Education",
+ 	"genre": ["Drama", "Suspense"],
+ 	"synopsis": "A advogada e professora universitária Alma Solares (Maite Perroni) é casada com o respeitado juiz Leonardo Solares (Jorge Poza) com quem tem uma filha, Zoe Solares (Regina Pavón). Certa de que está sendo traída pelo marido, ela decide passar um fim de semana na casa de sua melhor amiga, Brenda (María Fernanda Yapes). Nesse passeio, Alma conhece o novo Darío (Alejandro Speitzer), com quem vive uma intensa paixão. Entretanto, um crime acaba transformando sua vida e movimentando sua família, fazendo-a questionar a verdade sobre as pessoas próximas. Com a ajuda do cunhado, Esteban (Erik Hayser), ela começa uma investigação com desdobramentos inesperados.",
+ 	"liked": true,
+ 	"seasons": "2 seasons", 
+        "idSeason": 1,
+        "codeSeason": "season02",
+        "episodes": 8    
+       [
+           {
+           "id": 1,
+           "code": "EP01",
+           "name": "Episode 1",
+           "wacthed": true
+            },
+            {
+           "id": 2,
+           "code": "EP02",
+           "name": "Episode 2",
+           "wacthed": true
+            },
+            {
+           "id": 3,
+           "code": "EP03",
+           "name": "Episode 3",
+           "wacthed": true
+            },	    
+            {
+           "id": 4,
+           "code": "EP04",
+           "name": "Episode 4",
+           "wacthed": true
+            },	
+            {
+           "id": 5,
+           "code": "EP05",
+           "name": "Episode 5",
+           "wacthed": true
+            },	
+            {
+           "id": 6,
+           "code": "EP06",
+           "name": "Episode 6",
+           "wacthed": true
+            },	
+            {
+           "id": 7,
+           "code": "EP07",
+           "name": "Episode 7",
+           "wacthed": true
+            },	
+            {
+           "id": 8,
+           "code": "EP08",
+           "name": "Episode 8",
+           "wacthed": true
+            },
+       {
+       "id": 2,
+       "code": "season02",
+       "episodes": 8 
+[
+           {
+           "id": 1,
+           "code": "EP01",
+           "name": "Episode 1",
+           "wacthed": true
+            },
+            {
+           "id": 2,
+           "code": "EP02",
+           "name": "Episode 2",
+           "wacthed": true
+            },
+            {
+           "id": 3,
+           "code": "EP03",
+           "name": "Episode 3",
+           "wacthed": true
+            },	    
+            {
+           "id": 4,
+           "code": "EP04",
+           "name": "Episode 4",
+           "wacthed": true
+            },	
+            {
+           "id": 5,
+           "code": "EP05",
+           "name": "Episode 5",
+           "wacthed": true
+            },	
+            {
+           "id": 6,
+           "code": "EP06",
+           "name": "Episode 6",
+           "wacthed": true
+            },	
+            {
+           "id": 7,
+           "code": "EP07",
+           "name": "Episode 7",
+           "wacthed": true
+            },	
+            {
+           "id": 8,
+           "code": "EP08",
+           "name": "Episode 8",
+           "wacthed": true
+            }],
+
+    "id": 4,
+ 	"nameSerie": "The Witcher",
+ 	"genre": ["Drama", "Fantasia"],
+ 	"synopsis": "Geralt de Rivia (Cavill) é um bruxo, um mutante com poderes especiais que mata monstros por dinheiro. A Terra está num estado de caos enquanto o império de Nilfgaard procura expandir o seu território. Entre os refugiados desta luta está Cirilla (Freya Allan), também chamada Ciri, a Princesa de Cintra, que está sendo perseguida por Nilfgaard. Ela e o Geralt estão destinados um ao outro. Em suas aventuras Geralt também conhece Yennefer de Vengerberg (Anya Chalotra), uma feiticiera.",
+ 	"liked": true,
+ 	"seasons": "1 season",
+        "idSeason": 1,
+        "codeSeason": "season01",
+        "episodes": 8    
+       [{
+           "id": 1,
+           "code": "EP01",
+           "name": "The End's Beginning",
+           "wacthed": true
+            },
+            {
+           "id": 2,
+           "code": "EP02",
+           "name": "Four Marks",
+           "wacthed": true
+            },
+            {
+           "id": 3,
+           "code": "EP03",
+           "name": "Betrayer Moon3",
+           "wacthed": true
+            },	    
+            {
+           "id": 4,
+           "code": "EP04",
+           "name": "Of Banquets, Bastards and Burials",
+           "wacthed": true
+            },	
+            {
+           "id": 5,
+           "code": "EP05",
+           "name": "Bottled Appetites",
+           "wacthed": true
+            },	
+            {
+           "id": 6,
+           "code": "EP06",
+           "name": "Rare Species",
+           "wacthed": true
+            },	
+            {
+           "id": 7,
+           "code": "EP07",
+           "name": "Before a Fall",
+           "wacthed": true
+            },	
+            {
+           "id": 8,
+           "code": "EP08",
+           "name": "Much More",
+           "wacthed": true
+            }]
+
+
+	
+
+
+
+
+
+
