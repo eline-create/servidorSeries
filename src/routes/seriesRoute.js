@@ -1,22 +1,14 @@
-const express = require("express")
-const router = express.Router()
-const controller = require("../controllers/seriesController")
+const express = require("express");
+const router = express.Router();
+const controller = require("../controller/seriesController");
 
-// POST -  Adicionar as séries 
-
-router.post("/", controller.postSerie)
-
-// GET -  Listar todas as séries
-
-router.get ("/", controller.getSeries)
-
-// GET por id
-
-
+router.post("/", controller.newSerie);
+router.get("/", controller.getSeries);
+router.get("/:id", controller.serieById);
 
 //PUT
+router.put("/:id", controller.updateSerie);
+
 //PATCH
 
-
-
-module.exports = router
+module.exports = router;
