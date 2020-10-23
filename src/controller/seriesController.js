@@ -71,9 +71,40 @@ const updateSerie = (req, res) => {
   }
 };
 
+const deleteSerie = (req, res) => {
+  
+    const serieId = req.params.id;
+    const serieFound = series.filter((serie) => serie.id == serieId);
+    if (serieFound && serieFound.length > 0) {
+      serieFound.forEach((serie) => {
+        const serieIndex = series.indexOf(serie);
+        series.splice(serieIndex, 1);
+      });
+      fs.writeFile(
+        "./src/models/series.json",
+        JSON.stringify(series),
+        "utf-8",
+        function (err) {
+          if (err) {
+            res.status(500).send({ message: err });
+          } else {
+            console.log("Série deletada do arquivo!");
+            res.sendStatus(204);
+          }
+        }
+      );
+    } else {
+      res.status(400).send({ message: "Série buscada para deletar, não foi encontrada!" });
+    }
+  };
+
+const likedSerie = (req, res) => {};
+
 module.exports = {
   newSerie,
   getSeries,
   serieById,
   updateSerie,
+  deleteSerie,
+  likedSerie,
 };
