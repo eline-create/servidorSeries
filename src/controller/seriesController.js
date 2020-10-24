@@ -72,33 +72,65 @@ const updateSerie = (req, res) => {
 };
 
 const deleteSerie = (req, res) => {
-  
-    const serieId = req.params.id;
-    const serieFound = series.filter((serie) => serie.id == serieId);
-    if (serieFound && serieFound.length > 0) {
-      serieFound.forEach((serie) => {
-        const serieIndex = series.indexOf(serie);
-        series.splice(serieIndex, 1);
-      });
-      fs.writeFile(
-        "./src/models/series.json",
-        JSON.stringify(series),
-        "utf-8",
-        function (err) {
-          if (err) {
-            res.status(500).send({ message: err });
-          } else {
-            console.log("Série deletada do arquivo!");
-            res.sendStatus(204);
-          }
+  const serieId = req.params.id;
+  const serieFound = series.filter((serie) => serie.id == serieId);
+  if (serieFound && serieFound.length > 0) {
+    serieFound.forEach((serie) => {
+      const serieIndex = series.indexOf(serie);
+      series.splice(serieIndex, 1);
+    });
+    fs.writeFile(
+      "./src/models/series.json",
+      JSON.stringify(series),
+      "utf-8",
+      function (err) {
+        if (err) {
+          res.status(500).send({ message: err });
+        } else {
+          console.log("Série deletada do arquivo!");
+          res.sendStatus(204);
         }
-      );
-    } else {
-      res.status(400).send({ message: "Série buscada para deletar, não foi encontrada!" });
-    }
-  };
+      }
+    );
+  } else {
+    res
+      .status(400)
+      .send({ message: "Série buscada para deletar, não foi encontrada!" });
+  }
+};
 
-const likedSerie = (req, res) => {};
+const likedSerie = (req, res) => {
+  const serieId = req.params.id;
+  const newLiked = req.body.liked;
+
+  const serieToUpdate = series.find((serie) => serie.id == serieId);
+  const serieIndex = series.indexOf(serieToUpdate);
+
+  if (serieIndex >= 0) {
+    serieToUpdate.liked = newLiked;
+    series.splice(serieIndex, 1, serieToUpdate);
+    fs.writeFile(
+      "./src/models/series.json",
+      JSON.stringify(series),
+      "utf-8",
+      function (err) {
+        if (err) {
+          res.status(500).send(err);
+        } else {
+          console.log("Status atualizado!");
+          const serieUpdated = series.find((serie) => serie.id == serieId);
+          res.status(200).send(serieUpdated);
+        }
+      }
+    );
+  } else {
+    res
+      .status(400)
+      .send({
+        message: "Série buscada para atualizar status, não foi encontrada!",
+      });
+  }
+};
 
 module.exports = {
   newSerie,
