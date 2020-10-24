@@ -26,6 +26,7 @@ const newSerie = (req, res) => {
   );
   res.status(201).send(series);
 };
+    
 
 const getSeries = (req, res) => {
   console.log(req.url); // mostrará o endpoint para a postagem
@@ -132,6 +133,38 @@ const likedSerie = (req, res) => {
   }
 };
 
+// const newSeason = (req, res) => {
+//     const seasonId = req.params.id
+    
+
+
+//     const { id, code, episodes } = req.body;
+
+//     series.seasons.push({
+//       id,
+//       code,
+//       episodes
+//     });
+
+
+
+  
+//     fs.writeFile(
+//       "./src/models/series.json",
+//       JSON.stringify(series),
+//       "utf-8",
+//       function (err) {
+//         if (err) {
+//           return res.status(424).send({ message: err });
+//         }
+//         console.log("Série Atualizada!");
+//       }
+//     );
+//     res.status(201).send(series);
+//   };
+
+
+
 module.exports = {
   newSerie,
   getSeries,
@@ -139,4 +172,5 @@ module.exports = {
   updateSerie,
   deleteSerie,
   likedSerie,
-};
+  newSeason,
+}
